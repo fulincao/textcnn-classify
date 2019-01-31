@@ -45,7 +45,7 @@ if __name__ == '__main__':
     parser.add_argument("--labels_json_file", type=str, default="labels.json",
                         help="json file of labels")
 
-    parser.add_argument("--predict", type=str, default=u"感冒怎么办才好啊")
+    parser.add_argument("--predict", type=str, default=u"脚好痛")
 
     # global variables here
     FLAGS, unknown = parser.parse_known_args()

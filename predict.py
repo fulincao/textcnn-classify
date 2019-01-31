@@ -63,10 +63,3 @@ if __name__ == '__main__':
 
     predict_label = cnn_model.predict(FLAGS.predict)
     logging.debug("category is {}".format(predict_label))
-
-    from pymongo import MongoClient
-
-    mongo = MongoClient(host = '10.5.0.80', port=38000)
-    conn = mongo['iris_data']['cate_connect']
-    new_label = conn.find_one({'name': predict_label})['new_name']
-    logging.debug("new category is {}".format(predict_label))

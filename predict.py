@@ -1,5 +1,3 @@
-# __date__ = 2018-06-11
-
 import os
 import json
 import argparse

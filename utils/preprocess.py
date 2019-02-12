@@ -1,6 +1,3 @@
-# __author__ = chenzhengqiang
-# __date__ = 2018-06-05
-
 from collections import Counter
 import numpy as np
 import tensorflow.contrib.keras as keras

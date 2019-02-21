@@ -1,8 +1,3 @@
-#__author__ = chenzhengqiang
-#__date__ = 2018-06-05
-#__desc__ = configuration of text classification with deep learning by cnn
-
-
 class TextCnnConfig(object):
 
     model_save_dir = './checkpoints'
